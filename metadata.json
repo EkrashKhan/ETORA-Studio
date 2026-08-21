@@ -1,0 +1,6 @@
+{
+  "name": "ETORA Studio",
+  "description": "ETORA Studio builds modern, responsive websites and digital solutions for growing businesses across the USA, UK and UAE.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
