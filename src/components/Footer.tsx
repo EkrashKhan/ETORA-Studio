@@ -70,6 +70,15 @@ export const Footer: React.FC = () => {
             </h4>
             <div className="space-y-2 text-xs">
               <a
+                href="https://api.whatsapp.com/send/?phone=923363882626"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2.5 rounded-lg bg-white/5 border border-white/10 flex items-center justify-between hover:border-[#7C5CFC]/40 hover:bg-white/[0.08] transition-all group"
+              >
+                <span className="font-medium text-[#F5F7FA] group-hover:text-[#A78BFA] transition-colors">WhatsApp</span>
+                <span className="text-[10px] text-[#A78BFA] font-mono">+923363882626</span>
+              </a>
+              <a
                 href="#contact"
                 className="p-2.5 rounded-lg bg-white/5 border border-white/10 flex items-center justify-between hover:border-[#7C5CFC]/40 hover:bg-white/[0.08] transition-all group"
               >
