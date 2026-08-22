@@ -1,4 +1,7 @@
 import { ServiceItem, IndustryItem, ProjectItem, ProcessStep, FAQItem } from '../types';
+import { SITE_CONFIG } from './seo';
+
+export { SITE_CONFIG };
 
 export const BRAND_INFO = {
   name: 'ETORA Studio',
