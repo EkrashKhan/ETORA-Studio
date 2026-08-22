@@ -1,6 +1,6 @@
 import React from 'react';
 import { LogoPlaceholder } from './LogoPlaceholder';
-import { BRAND_INFO } from '../data/content';
+import { BRAND_INFO, ETORA_CONTACT } from '../data/content';
 
 export const Footer: React.FC = () => {
   const navLinks = [
@@ -79,11 +79,13 @@ export const Footer: React.FC = () => {
                 <span className="text-[10px] text-[#A78BFA] font-mono">+923363882626</span>
               </a>
               <a
-                href="#contact"
+                href={ETORA_CONTACT.instagram || "https://www.instagram.com/etora.studio?igsi=MWp4Y2s1eGtvNmZsMg=="}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2.5 rounded-lg bg-white/5 border border-white/10 flex items-center justify-between hover:border-[#7C5CFC]/40 hover:bg-white/[0.08] transition-all group"
               >
                 <span className="font-medium text-[#F5F7FA] group-hover:text-[#A78BFA] transition-colors">Instagram</span>
-                <span className="text-[10px] text-[#9AA3AF]">@etorastudio</span>
+                <span className="text-[10px] text-[#A78BFA] font-mono">@etora.studio</span>
               </a>
               <a
                 href="#contact"
