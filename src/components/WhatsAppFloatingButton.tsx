@@ -1,16 +1,12 @@
 import React from 'react';
-import { motion } from 'motion/react';
 import { ETORA_CONTACT } from '../data/content';
 
 export const WhatsAppFloatingButton: React.FC = () => {
   const whatsappUrl = ETORA_CONTACT.whatsappUrl || 'https://api.whatsapp.com/send/?phone=923363882626';
 
   return (
-    <motion.div
-      initial={{ scale: 0, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      transition={{ delay: 0.8, type: 'spring', stiffness: 260, damping: 20 }}
-      className="fixed bottom-5 right-5 sm:bottom-7 sm:right-7 z-50 flex items-center group"
+    <div
+      className="fixed bottom-5 right-5 sm:bottom-7 sm:right-7 z-50 flex items-center group transition-transform duration-300 ease-out"
     >
       {/* Tooltip / Prompt for desktop */}
       <span className="hidden md:inline-flex mr-3 py-1.5 px-3 rounded-full bg-[#141820]/95 backdrop-blur-md border border-white/10 text-xs text-[#F5F7FA] font-medium shadow-xl opacity-0 group-hover:opacity-100 transition-all duration-200 pointer-events-none translate-x-2 group-hover:translate-x-0 whitespace-nowrap">
@@ -40,6 +36,6 @@ export const WhatsAppFloatingButton: React.FC = () => {
           <path d="M12.031 2c-5.502 0-9.98 4.478-9.98 9.98 0 1.76.459 3.473 1.332 4.985L2 22l5.204-1.365a9.936 9.936 0 0 0 4.827 1.245h.004c5.502 0 9.979-4.478 9.979-9.98 0-2.666-1.038-5.172-2.924-7.058C17.204 3.056 14.697 2 12.031 2zm5.82 14.184c-.244.686-1.42 1.258-1.956 1.341-.518.08-1.189.116-3.832-.977-3.376-1.396-5.553-4.838-5.722-5.062-.165-.224-1.36-1.81-1.36-3.453 0-1.643.858-2.453 1.162-2.784.305-.33.666-.413.888-.413.223 0 .445.002.639.012.207.01.484-.079.757.578.283.686.963 2.35 1.047 2.522.083.173.139.375.028.6-.111.224-.167.363-.332.556-.166.194-.349.432-.499.58-.166.164-.339.344-.146.674.193.33 86.133 1.408 1.942 2.378 1.396 1.243 2.572 1.628 2.937 1.81.366.182.58.152.793-.095.213-.247.913-1.062 1.157-1.425.244-.364.488-.303.824-.178.337.124 2.138 1.008 2.505 1.192.366.183.61.274.7.425.089.15.089.873-.155 1.559z" />
         </svg>
       </a>
-    </motion.div>
+    </div>
   );
 };
