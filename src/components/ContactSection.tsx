@@ -255,10 +255,10 @@ export const ContactSection: React.FC = () => {
                     </span>
                     {ETORA_CONTACT.whatsapp ? (
                       <a
-                        href={`https://wa.me/${ETORA_CONTACT.whatsapp.replace(/[^0-9]/g, '')}`}
+                        href={ETORA_CONTACT.whatsappUrl || 'https://api.whatsapp.com/send/?phone=923363882626'}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="font-mono text-[#A78BFA] hover:text-[#F5F7FA] font-medium text-xs transition-colors"
+                        className="font-mono text-[#A78BFA] hover:text-[#F5F7FA] font-medium text-xs transition-colors inline-block mt-0.5"
                       >
                         {ETORA_CONTACT.whatsapp}
                       </a>
