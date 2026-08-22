@@ -33,7 +33,7 @@ export const LogoPlaceholder: React.FC<LogoPlaceholderProps> = ({
                 setImageError(true);
               }
             }}
-            alt="ETORA Studio"
+            alt="ETORA Studio Logo"
             referrerPolicy="no-referrer"
             className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto max-w-[200px] sm:max-w-[260px] md:max-w-[320px] lg:max-w-[380px] object-contain object-left transition-transform duration-200 group-hover:scale-[1.02] filter drop-shadow-[0_2px_12px_rgba(0,0,0,0.5)]"
           />
@@ -65,7 +65,7 @@ export const LogoPlaceholder: React.FC<LogoPlaceholderProps> = ({
                 setImageError(true);
               }
             }}
-            alt="ETORA Studio"
+            alt="ETORA Studio Logo"
             referrerPolicy="no-referrer"
             className="h-9 sm:h-11 md:h-13 lg:h-14 w-auto max-w-[190px] sm:max-w-[250px] md:max-w-[300px] object-contain object-left filter drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]"
           />
@@ -95,7 +95,7 @@ export const LogoPlaceholder: React.FC<LogoPlaceholderProps> = ({
               target.src = remoteMonogramFallback;
             }
           }}
-          alt="ETORA Monogram"
+          alt="ETORA Studio Monogram"
           referrerPolicy="no-referrer"
           className="w-full h-full object-contain scale-[1.75] transition-transform duration-300 group-hover:scale-[1.85] filter drop-shadow-[0_1px_6px_rgba(124,92,252,0.35)]"
         />
@@ -122,7 +122,7 @@ export const LogoPlaceholder: React.FC<LogoPlaceholderProps> = ({
                 setImageError(true);
               }
             }}
-            alt="ETORA Studio Brandmark"
+            alt="ETORA Studio Vertical Logo"
             referrerPolicy="no-referrer"
             className="w-full max-w-[220px] sm:max-w-[260px] md:max-w-[300px] h-auto object-contain filter drop-shadow-[0_4px_24px_rgba(124,92,252,0.35)]"
           />
