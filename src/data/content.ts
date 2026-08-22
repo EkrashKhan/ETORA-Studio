@@ -17,7 +17,7 @@ export const BRAND_INFO = {
 
 // Centralized contact configuration for activating real business channels when live
 export const ETORA_CONTACT = {
-  email: '', // e.g., 'hello@etorastudio.com' - leaves as empty string until active
+  email: 'etora.studio2026@gmail.com',
   whatsapp: '+923363882626',
   whatsappUrl: 'https://api.whatsapp.com/send/?phone=923363882626',
   instagram: 'https://www.instagram.com/etora.studio?igsi=MWp4Y2s1eGtvNmZsMg==',
