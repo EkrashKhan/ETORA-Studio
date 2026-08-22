@@ -94,16 +94,11 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom Bar: Copyright & Legal Placeholders */}
+        {/* Bottom Bar: Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
           <div className="flex items-center gap-3">
             <LogoPlaceholder type="monogram" className="w-9 h-9 sm:w-10 sm:h-10 shrink-0" />
             <p>© {BRAND_INFO.copyrightYear} ETORA Studio. All rights reserved.</p>
-          </div>
-
-          <div className="flex items-center gap-6 text-[#9AA3AF]">
-            <span className="hover:text-[#A78BFA] cursor-pointer transition-colors">[Privacy Policy]</span>
-            <span className="hover:text-[#A78BFA] cursor-pointer transition-colors">[Terms of Service]</span>
           </div>
         </div>
       </div>
