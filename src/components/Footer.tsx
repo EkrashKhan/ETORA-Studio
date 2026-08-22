@@ -70,6 +70,13 @@ export const Footer: React.FC = () => {
             </h4>
             <div className="space-y-2 text-xs">
               <a
+                href={`mailto:${ETORA_CONTACT.email || 'etora.studio2026@gmail.com'}`}
+                className="p-2.5 rounded-lg bg-white/5 border border-white/10 flex items-center justify-between hover:border-[#7C5CFC]/40 hover:bg-white/[0.08] transition-all group"
+              >
+                <span className="font-medium text-[#F5F7FA] group-hover:text-[#A78BFA] transition-colors">Direct Email</span>
+                <span className="text-[10px] text-[#A78BFA] font-mono truncate max-w-[140px] sm:max-w-[180px]">{ETORA_CONTACT.email}</span>
+              </a>
+              <a
                 href="https://api.whatsapp.com/send/?phone=923363882626"
                 target="_blank"
                 rel="noopener noreferrer"
