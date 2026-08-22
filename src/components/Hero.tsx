@@ -10,8 +10,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAudit, onViewWork }) => {
   return (
     <section
       id="hero"
+      data-section="home"
       className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-[#0B0D10]"
     >
+      <div id="home" className="absolute -top-32" aria-hidden="true" />
       {/* Immersive UI Ambient Glows */}
       <div
         className="pointer-events-none absolute top-[-100px] right-[-100px] w-[500px] h-[500px] bg-[#7C5CFC] opacity-15 rounded-full blur-[120px]"
