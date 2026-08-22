@@ -15,6 +15,7 @@ import { FinalCTASection } from './components/FinalCTASection';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
 import { AuditModal } from './components/AuditModal';
+import { WhatsAppFloatingButton } from './components/WhatsAppFloatingButton';
 
 export default function App() {
   const [isAuditModalOpen, setIsAuditModalOpen] = useState(false);
@@ -87,6 +88,9 @@ export default function App() {
         isOpen={isAuditModalOpen}
         onClose={() => setIsAuditModalOpen(false)}
       />
+
+      {/* Floating WhatsApp Action Button */}
+      <WhatsAppFloatingButton />
     </div>
   );
 }
